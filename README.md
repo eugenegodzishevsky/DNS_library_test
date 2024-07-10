@@ -17,3 +17,7 @@
 
 Сущность книга: Наименование, автор, год издания.
 Хранение списка организовать в CoreData.
+
+
+https://github.com/eugenegodzishevsky/DNS_library_test/assets/109996712/56b65ef5-ed37-4df2-9046-a48310e31fe2
+
