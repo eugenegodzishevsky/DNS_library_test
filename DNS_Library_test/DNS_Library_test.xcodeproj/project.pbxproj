@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DABA47CA2C3E3539001C899A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA47C92C3E3539001C899A /* AppDelegate.swift */; };
+		DABA47CC2C3E3539001C899A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA47CB2C3E3539001C899A /* SceneDelegate.swift */; };
+		DABA47CE2C3E3539001C899A /* DetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA47CD2C3E3539001C899A /* DetailsPresenter.swift */; };
+		DABA47D62C3E353B001C899A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABA47D52C3E353B001C899A /* Assets.xcassets */; };
+		DABA47D92C3E353B001C899A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DABA47D82C3E353B001C899A /* Base */; };
+		DABA47F02C3E37FC001C899A /* Book+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA47EB2C3E37FC001C899A /* Book+CoreDataClass.swift */; };
+		DABA47F12C3E37FC001C899A /* DNS_Library_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DABA47EC2C3E37FC001C899A /* DNS_Library_test.xcdatamodeld */; };
+		DABA47F22C3E37FC001C899A /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA47EE2C3E37FC001C899A /* CoreDataService.swift */; };
+		DABA47F32C3E37FC001C899A /* Book+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA47EF2C3E37FC001C899A /* Book+CoreDataProperties.swift */; };
+		DABA47F62C3E38F1001C899A /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA47F52C3E38F1001C899A /* DetailsView.swift */; };
+		DABA47F82C3E3916001C899A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA47F72C3E3916001C899A /* DetailsViewController.swift */; };
+		DABA47FA2C3E3948001C899A /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA47F92C3E3948001C899A /* BooksView.swift */; };
+		DABA47FD2C3E396A001C899A /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA47FC2C3E396A001C899A /* BooksViewController.swift */; };
+		DABA47FF2C3E3988001C899A /* BooksPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA47FE2C3E3988001C899A /* BooksPresenter.swift */; };
+		DABA48012C3E39A5001C899A /* BooksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA48002C3E39A5001C899A /* BooksTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DABA47C62C3E3539001C899A /* DNS_Library_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNS_Library_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABA47C92C3E3539001C899A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DABA47CB2C3E3539001C899A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DABA47CD2C3E3539001C899A /* DetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPresenter.swift; sourceTree = "<group>"; };
+		DABA47D52C3E353B001C899A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DABA47D82C3E353B001C899A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DABA47DA2C3E353B001C899A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABA47EB2C3E37FC001C899A /* Book+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DABA47ED2C3E37FC001C899A /* DNSTestTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DNSTestTask.xcdatamodel; sourceTree = "<group>"; };
+		DABA47EE2C3E37FC001C899A /* CoreDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		DABA47EF2C3E37FC001C899A /* Book+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DABA47F52C3E38F1001C899A /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		DABA47F72C3E3916001C899A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		DABA47F92C3E3948001C899A /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
+		DABA47FC2C3E396A001C899A /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		DABA47FE2C3E3988001C899A /* BooksPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksPresenter.swift; sourceTree = "<group>"; };
+		DABA48002C3E39A5001C899A /* BooksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DABA47C32C3E3539001C899A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DABA47BD2C3E3539001C899A = {
+			isa = PBXGroup;
+			children = (
+				DABA47C82C3E3539001C899A /* DNS_Library_test */,
+				DABA47C72C3E3539001C899A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DABA47C72C3E3539001C899A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DABA47C62C3E3539001C899A /* DNS_Library_test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DABA47C82C3E3539001C899A /* DNS_Library_test */ = {
+			isa = PBXGroup;
+			children = (
+				DABA47C92C3E3539001C899A /* AppDelegate.swift */,
+				DABA47CB2C3E3539001C899A /* SceneDelegate.swift */,
+				DABA47FB2C3E394C001C899A /* Books */,
+				DABA47F42C3E389F001C899A /* Details */,
+				DABA47D52C3E353B001C899A /* Assets.xcassets */,
+				DABA47D72C3E353B001C899A /* LaunchScreen.storyboard */,
+				DABA47DA2C3E353B001C899A /* Info.plist */,
+				DABA47E02C3E35CE001C899A /* CoreDataLayer */,
+			);
+			path = DNS_Library_test;
+			sourceTree = "<group>";
+		};
+		DABA47E02C3E35CE001C899A /* CoreDataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				DABA47EB2C3E37FC001C899A /* Book+CoreDataClass.swift */,
+				DABA47EF2C3E37FC001C899A /* Book+CoreDataProperties.swift */,
+				DABA47EE2C3E37FC001C899A /* CoreDataService.swift */,
+				DABA47EC2C3E37FC001C899A /* DNS_Library_test.xcdatamodeld */,
+			);
+			path = CoreDataLayer;
+			sourceTree = "<group>";
+		};
+		DABA47F42C3E389F001C899A /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				DABA47F52C3E38F1001C899A /* DetailsView.swift */,
+				DABA47CD2C3E3539001C899A /* DetailsPresenter.swift */,
+				DABA47F72C3E3916001C899A /* DetailsViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		DABA47FB2C3E394C001C899A /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				DABA47F92C3E3948001C899A /* BooksView.swift */,
+				DABA47FC2C3E396A001C899A /* BooksViewController.swift */,
+				DABA47FE2C3E3988001C899A /* BooksPresenter.swift */,
+				DABA48002C3E39A5001C899A /* BooksTableViewCell.swift */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DABA47C52C3E3539001C899A /* DNS_Library_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABA47DD2C3E353B001C899A /* Build configuration list for PBXNativeTarget "DNS_Library_test" */;
+			buildPhases = (
+				DABA47C22C3E3539001C899A /* Sources */,
+				DABA47C32C3E3539001C899A /* Frameworks */,
+				DABA47C42C3E3539001C899A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNS_Library_test;
+			productName = DNS_Library_test;
+			productReference = DABA47C62C3E3539001C899A /* DNS_Library_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DABA47BE2C3E3539001C899A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					DABA47C52C3E3539001C899A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = DABA47C12C3E3539001C899A /* Build configuration list for PBXProject "DNS_Library_test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DABA47BD2C3E3539001C899A;
+			productRefGroup = DABA47C72C3E3539001C899A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DABA47C52C3E3539001C899A /* DNS_Library_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DABA47C42C3E3539001C899A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABA47D62C3E353B001C899A /* Assets.xcassets in Resources */,
+				DABA47D92C3E353B001C899A /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DABA47C22C3E3539001C899A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABA47F22C3E37FC001C899A /* CoreDataService.swift in Sources */,
+				DABA47FF2C3E3988001C899A /* BooksPresenter.swift in Sources */,
+				DABA47F12C3E37FC001C899A /* DNS_Library_test.xcdatamodeld in Sources */,
+				DABA47CE2C3E3539001C899A /* DetailsPresenter.swift in Sources */,
+				DABA47CA2C3E3539001C899A /* AppDelegate.swift in Sources */,
+				DABA47F02C3E37FC001C899A /* Book+CoreDataClass.swift in Sources */,
+				DABA47F62C3E38F1001C899A /* DetailsView.swift in Sources */,
+				DABA47F32C3E37FC001C899A /* Book+CoreDataProperties.swift in Sources */,
+				DABA47FA2C3E3948001C899A /* BooksView.swift in Sources */,
+				DABA47F82C3E3916001C899A /* DetailsViewController.swift in Sources */,
+				DABA48012C3E39A5001C899A /* BooksTableViewCell.swift in Sources */,
+				DABA47FD2C3E396A001C899A /* BooksViewController.swift in Sources */,
+				DABA47CC2C3E3539001C899A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DABA47D72C3E353B001C899A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABA47D82C3E353B001C899A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DABA47DB2C3E353B001C899A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DABA47DC2C3E353B001C899A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DABA47DE2C3E353B001C899A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DNS_Library_test/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.DNS-Library-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DABA47DF2C3E353B001C899A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DNS_Library_test/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.DNS-Library-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DABA47C12C3E3539001C899A /* Build configuration list for PBXProject "DNS_Library_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABA47DB2C3E353B001C899A /* Debug */,
+				DABA47DC2C3E353B001C899A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABA47DD2C3E353B001C899A /* Build configuration list for PBXNativeTarget "DNS_Library_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABA47DE2C3E353B001C899A /* Debug */,
+				DABA47DF2C3E353B001C899A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DABA47EC2C3E37FC001C899A /* DNS_Library_test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DABA47ED2C3E37FC001C899A /* DNSTestTask.xcdatamodel */,
+			);
+			currentVersion = DABA47ED2C3E37FC001C899A /* DNSTestTask.xcdatamodel */;
+			name = DNS_Library_test.xcdatamodeld;
+			path = /Users/vermutxxx/Desktop/DNS_Library_test/DNS_Library_test/CoreDataService/DNS_Library_test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DABA47BE2C3E3539001C899A /* Project object */;
+}
