@@ -19,6 +19,7 @@ private enum Constants {
     static let error = "Error"
     static let ok = "OK"
     static let delete = "Delete"
+    static let hasNoImplemented = "hasNoImplemented"
 }
 
 final class BooksViewController: UIViewController, BookListViewProtocol {
@@ -26,11 +27,21 @@ final class BooksViewController: UIViewController, BookListViewProtocol {
     private var dataSource: UITableViewDiffableDataSource<Int, Book>!
     private var searchController = UISearchController()
     
-    private let bookListView = BookListView()
-    
-    override func loadView() {
-        self.view = bookListView
-    }
+    private let bookListView: BookListView
+        
+        init(view: BookListView) {
+            self.bookListView = view
+            super.init(nibName: nil, bundle: nil)
+        }
+        
+        required init?(coder: NSCoder) {
+            fatalError(Constants.hasNoImplemented)
+        }
+        
+        override func loadView() {
+            self.view = bookListView
+        }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()

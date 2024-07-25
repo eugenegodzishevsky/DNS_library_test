@@ -15,7 +15,8 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
-        let navigationController = UINavigationController(rootViewController: BooksViewController())
+        let bookListView = BookListView()
+        let navigationController = UINavigationController(rootViewController: BooksViewController(view: bookListView))
         
         window = UIWindow(windowScene: windowScene)
         window?.windowScene = windowScene
